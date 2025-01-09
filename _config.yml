@@ -13,7 +13,7 @@ tagline: Соёлын ажиглалтууд
 logo: "/static/img/logo.jpg"
 keywords: Хүн,Соёл,Түүх,Нийгэм,Урлаг,Аялал,Уран зохиол,Ном
 author: ᠠᠷᠪᠢᠰ
-footerText: '᠒᠐᠒᠔ ᠠᠷᠪᠢᠰ'
+footerText: '᠒᠐᠒᠕ ᠠᠷᠪᠢᠰ'
 
 permalink: /posts/:year/:month/:day/:title.html
 kramdown:
