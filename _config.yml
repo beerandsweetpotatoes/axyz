@@ -15,7 +15,7 @@ keywords: Хүн,Соёл,Түүх,Нийгэм,Урлаг,Аялал,Уран �
 author: ᠠᠷᠪᠢᠰ
 footerText: '᠒᠐᠒᠕ ᠠᠷᠪᠢᠰ'
 
-permalink: /posts/:year/:month/:day/:title.html
+permalink: /:slug/
 kramdown:
   auto_ids: true
   input: GFM
