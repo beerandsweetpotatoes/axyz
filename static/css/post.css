@@ -1,14 +1,15 @@
 .page-post {
-  font-size: 17px;
-  line-height: 1.5;
+  font-size: 21px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
 }
 .page-post .title {
-  font-size: 17px;
+  font-size: 21px;
   font-weight: bold;
   color: #000000;
 }
 .page-post .subtitle {
-  font-size: 15px;
+  font-size: 17px;
   color: #000000;
 }
 .page-post .post > * {
@@ -21,7 +22,7 @@
 .page-post .post h1,
 .page-post .post h2 {
   font-weight: normal;
-  font-size: 17px;
+  font-size: 21px;
   position: relative;
   cursor: pointer;
 }
@@ -36,7 +37,7 @@
 .page-post h4,
 .page-post h5,
 .page-post h6 {
-  font-size: 17px;
+  font-size: 21px;
   font-weight: bold;
 }
 .page-post blockquote {
@@ -96,7 +97,7 @@
   line-height: 1.6;
 }
 .page-post code {
-  font-size: 17px;
+  font-size: 21px;
   background-color: #ededed;
   word-break: break-all;
   padding: 3px 5px;
@@ -105,7 +106,7 @@
   color: #303030;
 }
 .page-post pre code {
-  font-size: 17px;
+  font-size: 21px;
   background-color: transparent !important;
   word-break: keep-all;
   padding: 0;
@@ -150,12 +151,17 @@
 .page-post .table-container table tbody tr:last-child {
   border-bottom: 0;
 }
+.spacing-extra {
+  margin-top: 20px;
+}
 @media screen and (max-width: 560px) {
   .page-post {
-    font-size: 17px;
+    font-size: 18px;
+    letter-spacing: 0.01em;
   }
   .page-post pre code {
-    font-size: 17px;
+    font-size: 18px;
+    letter-spacing: 0.01em;
   }
   .page-post .post > * {
     margin: 15px 0;
