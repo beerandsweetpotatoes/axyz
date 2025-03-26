@@ -13,17 +13,23 @@ image: /posts/axyz.jpg
       
       <ul>
     {%- endif %}
-        <li>
-          <span class="date">{{ post.date | date: "%Y/%m/%d" }}</span>  
-          <div class="title">
-            <a href="{{ site.baseurl | append: post.url }}" class="hover-underline">{{ post.title }}</a>
-          </div>
-          <div class="categories">
-            {% for categorie in post.categories -%}
-            <a href="{{site.baseurl}}/pages/categories.html#{{ categorie }}" class="hover-underline">{{ categorie }}</a>
-            {%- endfor %}
-          </div>
-        </li>
+       <li>
+  <div class="meta">
+    <span class="date">{{ post.date | date: "%Y-%m-%d" }}</span>
+    <div class="categories">
+      {% for categorie in post.categories %}
+{{ categorie }}
+      {% endfor %}
+    </div>
+  </div>
+  <div class="title">
+    {% if post.external_url %}
+      <a href="{{ post.external_url }}" target="_blank" rel="noopener noreferrer" class="hover-underline">{{ post.title }}</a>
+    {% else %}
+      <a href="{{ site.baseurl | append: post.url }}" class="hover-underline">{{ post.title }}</a>
+    {% endif %}
+  </div>
+</li>
     {%- if forloop.last or post_previous_year != post_year %}
       </ul>
     </div>
