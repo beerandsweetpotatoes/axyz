@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 html {
   color: #000000;
   background: #ffffff;
@@ -17,7 +18,7 @@ html[transition] {
   transition: all 500ms ease;
 }
 body {
-  max-width: 680px;
+  max-width: 720px;
   padding: 0 14px;
   margin: 0 auto;
 }
@@ -108,8 +109,8 @@ input:-webkit-autofill {
 }
 .header .logo {
   flex-shrink: 0;
-  width: 39px;
-  height: 115px;
+  width: 36px;
+  height: 105px;
   margin-right: 10px;
   -webkit-user-drag: none;
   background-image: url(../img/logo.png);
@@ -128,8 +129,17 @@ input:-webkit-autofill {
   user-select: auto;
 }
 .footer {
-  padding: 15px 0;
-  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  position: relative;
+  padding: 25px 0;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
 }
 .footer a {
   text-decoration: underline;
