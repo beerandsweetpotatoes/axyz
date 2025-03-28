@@ -7,7 +7,7 @@ plugins:
   - jekyll-sitemap
 
 title: ᠠᠷᠪᠢᠰ
-description: Соёлын ажиглалтууд
+description: Соёлын ажиглалт
 url: "http://arvis.xyz"
 tagline: Соёлын ажиглалтууд
 logo: "/static/img/logo.jpg"
