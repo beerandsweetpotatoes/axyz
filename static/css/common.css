@@ -116,18 +116,6 @@ input:-webkit-autofill {
   background-image: url(../img/logo.png);
   background-size: contain;
 }
-.header .menu {
-  margin-right: -9px;
-  text-align: right;
-  user-select: none;
-}
-.header .menu a {
-  display: inline-block;
-  font-size: 20px;
-  margin: 4px 9px;
-  white-space: nowrap;
-  user-select: auto;
-}
 .footer {
   display: flex;
   justify-content: space-between;
@@ -136,7 +124,6 @@ input:-webkit-autofill {
   position: relative;
   padding: 25px 0;
 }
-
 .social-links {
   display: flex;
   gap: 10px;
@@ -204,13 +191,5 @@ input:-webkit-autofill {
   .header {
     padding: 35px 0 20px 0;
     justify-content: flex-start;
-  }
-  .header .menu {
-    margin-right: -2px;
-    text-align: left;
-  }
-  .header .menu a {
-    margin: 2px 5px;
-    font-size: 20px;
   }
 }
