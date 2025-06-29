@@ -109,12 +109,12 @@ input:-webkit-autofill {
 }
 .header .logo {
   flex-shrink: 0;
-  width: 36px;
-  height: 105px;
+  width: 31px;
+  height: 90px;
   margin-right: 10px;
   -webkit-user-drag: none;
   background-image: url(../img/logo.png);
-  background-size: cover;
+  background-size: contain;
 }
 .header .menu {
   margin-right: -9px;
