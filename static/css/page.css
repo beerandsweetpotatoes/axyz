@@ -26,12 +26,12 @@
 }
 .list-post li .date {
   color: #000000;
-  font-size: 16px;
+  font-size: 12px;
   flex-shrink: 0;
 }
 .list-post li .categories {
   display: flex;
-  font-size: 16px;
+  font-size: 12px;
   flex-wrap: wrap;
   gap: 8px;
   flex-shrink: 0;
