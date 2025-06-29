@@ -40,6 +40,7 @@
 }
 
 .list-post li .categories a {
+  font-size: 12px;
   color: #000000;
   text-decoration: none;
 }
