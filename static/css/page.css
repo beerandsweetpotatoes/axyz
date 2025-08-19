@@ -45,7 +45,6 @@
   text-decoration: none;
 }
 .list-post li .title {
-  padding: 4px 0;
   white-space: normal; 
   overflow: visible; 
   text-overflow: clip; 
@@ -145,3 +144,4 @@
   background-color: #ededed;
   padding: 9px 9px 9px 15px;
 }
+
