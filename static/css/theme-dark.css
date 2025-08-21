@@ -69,10 +69,10 @@ html.dark .page-post tr {
   border-bottom: 1px solid #3b434b;
 }
 html.dark .page-post hr {
-  background-color: #30363d;
+  background-color: #ffffff;
 }
 html.dark .page-post table tr:nth-child(even) {
-  background-color: #161b22;
+  background-color: #262626;
 }
 html.dark .page-post iframe {
   opacity: 0.8;
@@ -102,3 +102,4 @@ html.dark .welcome {
   background-color: rgb(51, 51, 51);
   color: #ededed;
 }
+
