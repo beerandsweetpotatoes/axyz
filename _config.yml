@@ -20,7 +20,7 @@ kramdown:
   auto_ids: true
   input: GFM
   syntax_highlighter: rouge
-exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blog.sh']
+exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blog.sh', 'node_modules', 'vendor']
 
 domainUrl: 'http://arvis.xyz'
 baseurl: ''
@@ -28,3 +28,7 @@ baseurl: ''
 google_analytics: "G-C80FJYNJFK"
 
 extClickEffect: true
+
+feed:
+  excerpt_only: true
+  limit: 20
