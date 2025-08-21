@@ -1,6 +1,6 @@
 encoding: utf-8
 
-gems:
+plugins:
   - jekyll-regex-replace
   - jekyll-seo-tag
   - jekyll-feed
@@ -34,4 +34,5 @@ extAdsense: false
 extMath: false
 
 extCount: false
+
 
