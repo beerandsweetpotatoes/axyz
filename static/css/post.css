@@ -116,8 +116,8 @@
 }
 .page-post hr {
   border: none;
-  height: 3px;
-  background-color: #eeeeee;
+  height: 1px;
+  background-color: #000000;
 }
 .page-post table {
   min-width: 100%;
